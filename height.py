@@ -14,7 +14,7 @@ Created on Thu Sep 04 09:22:40 2014
 
 import math as mt
 h = float(raw_input("Insert the Height for discover the time: "))
-g=9.8
-def height(h): return  mt.sqrt(2(h/g))
+g=9.81
+def height(h): return  mt.sqrt(2*(h/g))
     
 print height(h)
