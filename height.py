@@ -13,8 +13,9 @@ Created on Thu Sep 04 09:22:40 2014
 # t = sqrt(2h/a)
 
 import math as mt
+print ('Welcome to Falling Time Calculator (FTC) ')
 h = float(raw_input("Insert the Height for discover the time: "))
-g=9.81
-def height(h): return  mt.sqrt(2*(h/g))
+g=9.81 #Just for make it easy if you want to change the value
+def height(h): return  mt.sqrt(2*(h/g)) #Simple answer, using mt instead the math for make it easy.
     
-print height(h)
+print height(h)# Printing the result
